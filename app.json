@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-learning",
-    "slug": "react-native-learning",
+    "name": "SCC Dealer",
+    "slug": "scc-dealer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,22 +14,28 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.reactnativelearning"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/favicon.png"
+      },
+      "package": "com.anonymous.reactnativelearning"
     },
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c0d5c4f5-dc71-4fe9-b616-30c4d9aa625c"
+      }
+    },
+    "owner": "ruhanrk"
   }
 }
