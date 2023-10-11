@@ -8,6 +8,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "hook/useFetch.js"
+    "hook/useFetch.js",
+    "app/job-details/[id].jsx"
   ]
 }
